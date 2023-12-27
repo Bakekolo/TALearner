@@ -7,6 +7,7 @@
 
 #include "environment.h"
 #include <random>
+#include <iostream>
 
 class Example{
 public:
@@ -27,6 +28,7 @@ public:
                 break;
         }   
 
+        std::cout << "Mode: " << mode << ", Type: " << type << std::endl;
         if(mode == 0){
             switch(type){
             case 3:
@@ -36,6 +38,7 @@ public:
                 Example_4x4();
                 break;
             case 5:
+                std::cout << "Entered case 5" << std::endl;
                 Example_5x5();
                 break;
             case 6:

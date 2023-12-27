@@ -14,6 +14,7 @@ Optional arguments to main:
 */
 
 int main(int argc, char ** argv){
+	printf("Simple print\n");
 	Benchmark * bench = new Benchmark();
 	// Default arguments
 	int grid_size = 3;
