@@ -382,6 +382,7 @@ public:
 
     // 5x5 grid world example
     void Example_5x5(){
+	std::cout << "New Example_5x5()" << std::endl;
         // Initialize environment
         width = 5;
         height = 5;
