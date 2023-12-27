@@ -385,7 +385,7 @@ public:
         MC_states = width * height;
         N = MC_states * DFA_states;
         M = MC_states * 2;
-        num_labels = 6;
+        num_labels = 5;
         // (start state, end state, label)
         switch(DFA_states){
             case 3:
@@ -403,15 +403,10 @@ public:
         }
 
         labels = {
-            {0,4,2}, // coffee
-            {2,0,4}, // couch
-            {2,4,3}, // tv
-            {3,3,5}, // lemon
-            {3,4,5}, // lemon
-            {4,1,4}, // couch
-            {4,2,6}, // stairs
-            {4,3,5}, // lemon
-            {4,4,5} // lemon
+            {2,2,2}, // cake
+            {2,3,5}, // home
+            {3,3,4}, // car
+            {4,2,3}, // juice
         };
         return;
     }
