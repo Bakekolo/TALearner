@@ -305,7 +305,7 @@ public:
      * 1 = empty
      * 2 = wood
      * 3 = factory
-     * 4 = couch
+     * 4 = at_home
 
     */
     void Example_3x3(){
